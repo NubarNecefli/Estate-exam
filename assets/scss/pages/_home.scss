@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    height: 650px;
+    background-image: url(/assets/img/home_slider_bcg.jpg);
+    .mynav{
+        width: 85%;
+        margin: auto;
+    }
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color:#fd7e14;
+}
+.line{
+    border-bottom: 1px solid white;
+}
+
+#sec1 .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    padding-top: 25px;
+
+ 
+}
+.text1{
+    margin-top: 25px;
+    padding-top: 25px;
+    h1{
+        font-size: 5rem;
+        color: white;
+        margin-top: 25px;
+    padding-top: 25px;
+    }
+}
+}
+main{
+    #sec2{
+        width: 100%;
+        height: 600px;
+        // background-color: bisque;
+        #sec2 .container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+    .text2{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 25px;
+    padding-left: 26px;
+    margin-top: 25px;
+    padding-top: 25px;
+    .line2{
+        color: orangered;
+    }
+    h5{
+       color:  #1e2c4e;
+    }
+    p{
+color: #b0b1b3;;
+    }
+    }
+    #sec3{
+        width: 100%;
+        height: 550px;
+        background-image: url(/assets/img/testimonials_background.jpg);
+        h6{
+            color: white;
+        }
+        .lorem{
+            color: white;
+            padding: 25px;
+    margin: 25px;
+        }
+
+    }
+    .pht {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 15px;
+        h5{
+            color: orangered;
+        }
+        p{
+            color: white;
+        }
+        img{
+            border-radius: 40px;
+        }
+    }
+    #sec3 .container{
+        padding: 25px;
+    }
+
+
+    #sec4{
+        width: 100%;
+        height: 500px;
+        background-image: url(/assets/img/world.png);
+        background-attachment: fixed;
+        .row{
+            flex-direction: column;
+        }
+        .imgs{
+            display: flex;
+    gap: 100px;
+        }
+        .text4{
+            display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 25px;
+    padding-left: 25px;
+    padding: 25px;
+    h6{
+        color:  #1e2c4e;
+    }
+    p{
+        color: rgb(75, 74, 74);
+    }
+    .line2{
+        color: orangered;
+    }
+        }
+    }
+}
+
+footer{
+    #sec5{
+        width: 100%;
+        height: 110px;
+        background-image: url(/assets/img/testimonials_background.jpg);
+    }
+    .colorlib{
+        p,h6{
+            color: grey;
+        }
+        h6{
+            color: #0c3fbf;
+        }
+    }
+    .colorlib{
+        display: flex;
+        gap: 15px;
+    }
+    .mydiv{
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    }
+}
+
+   
+
